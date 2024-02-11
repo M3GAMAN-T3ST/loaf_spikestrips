@@ -4,7 +4,7 @@ Config = {
     -- video: https://gyazo.com/8f713a51b2fd2a1e2faa7735e2cc1921
     NPCVehicles = false, -- should the script burst tyres of npcs vehicles? (NOTE: PERFORMANCE HEAVY FOR THE CLIENTS!  ~0.03 - 0.20 ms)
     
-    Framework = "none", --[[ What framework to use
+    Framework = "qb", --[[ What framework to use
         Valid options:
             * "qb" (qb-core)
             * "esx" (ESX)
@@ -28,7 +28,10 @@ Config = {
         UseWarmenu = false, -- false = default esx menu, true = use warmenu (looks like gta:o)
         PoliceJobs = { -- police jobs
             "police",
-            "sheriff",
+            "bcso",
+            "sasp",
+            "lspd",
+            "sapr",
         },
     },
 }
