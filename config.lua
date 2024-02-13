@@ -12,7 +12,7 @@ Config = {
     ]]
 
     RequireJobPlace = true, -- require job to place a spike strip?
-    RequireJobRemove = false, -- should everyone be able to remove a spikestrip, or just people with job allowed to place spikestrips?
+    RequireJobRemove = true, -- should everyone be able to remove a spikestrip, or just people with job allowed to place spikestrips?
     
     Menu = {
         Enabled = true, -- TriggerEvent("loaf_spikestrips:spikestripMenu") to open the menu
